@@ -1,85 +1,85 @@
 
-<！文档类型html >
+<!doctype html>
 <html>
 <head>
-<meta name="视窗"内容=宽度=设备宽度，初始比例=1.0，最小比例=1.0，最大比例=1.0，用户可缩放=否 />	
-<meta charset=" utf-8 ">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />	
+<meta charset="utf-8">
 <title>每日吃瓜</title>
-<link rel="图标"href=" tpl/home/images/1.ico "类型="图像/x图标">
-<link rel="快捷图标"href=" tpl/home/images/1.ico "类型="图像/x图标">	
-<script type="文本/javascript "src=" TPL/home/js/jquery-1 . 8 . 3 . min . js "> </script >
-<script src=“tpl/home/js/common/common.js？v=111英寸> </script >
-<script src=" tpl/home/js/menu.js "> </script >
-<link rel="样式表"类型="文本/css "href=“tpl/home/css/common.css？v=0121211 " />
-<link href=“tpl/home/css/menu.css？v=11英寸类型="文本/css "相对="样式表">	
-<link href=" tpl/home/css/iconfont.css "类型="文本/css "相对="样式表">		
-<link rel="样式表"href=" TPL/home/swiper/dist/CSS/swiper . min . CSS ">
-<script src=" tpl/home/js/swiper.min.js "> </script >
-<script src=" tpl/home/js/hls.js "> </script >
+<link rel="icon" href="tpl/home/images/1.ico" type="image/x-icon">
+<link rel="shortcut icon" href="tpl/home/images/1.ico" type="image/x-icon">	
+<script type="text/javascript" src="tpl/home/js/jquery-1.8.3.min.js"></script>
+<script src="tpl/home/js/common/common.js?v=111"></script>	
+<script src="tpl/home/js/menu.js"></script>	
+<link rel="stylesheet" type="text/css" href="tpl/home/css/common.css?v=0121211" />
+<link href="tpl/home/css/menu.css?v=11" type="text/css" rel="stylesheet">	
+<link href="tpl/home/css/iconfont.css" type="text/css" rel="stylesheet">		
+<link rel="stylesheet" href="tpl/home/swiper/dist/css/swiper.min.css">
+<script src="tpl/home/js/swiper.min.js"></script>			
+<script src="tpl/home/js/hls.js"></script>
 </head>
 
 <body>
-	<div id="文本复制"风格="显示:无"> </div >
+	<div id="textToCopy" style="display:none"> </div>
 <style>
-	.视频_wc{宽度:100%;高度:100%;位置:固定；z索引:999999；显示:无；}
-。视频_wc。bgbg{背景:#000；不透明度:0.5；宽度:100%;高度:100%;z索引:999999；位置:绝对；顶部:0；左侧:0;}
-。视频_wc。关闭{位置:绝对；右:20便士x；顶部:5%;z索引:9999991;}
-。视频_wc。录像{位置:相对；顶部:12%;边距:汽车；显示:块；z索引:9999991；宽度:700便士x}
-。视频_wcs{宽度:100%;高度:100%;位置:固定；z索引:999999；显示:无；}
-。视频_wcs。bgbg{背景:#000；不透明度:0.5；宽度:100%;高度:100%;z索引:999999；位置:绝对；顶部:0；左侧:0;}
-。视频_wcs。关闭{位置:绝对；右:20便士x；顶部:5%;z索引:9999991;}
-。视频_wcs。录像{位置:相对；顶部:12%;边距:汽车；显示:块；z索引:9999991；宽度:700便士x}
-。虚拟厕所{宽度:96%;边距:0 汽车；填充:10便士x 0;}
-。v_wc跨度{显示:块；宽度:100%;字体大小:1.4rem颜色:蓝色；填充:5px 0;}
+	.video_wc{width: 100%; height: 100%; position: fixed; z-index: 999999; display: none;}
+	.video_wc .bgbg{background: #000; opacity: 0.5; width:100%; height: 100%; z-index: 999999; position: absolute; top:0; left: 0;}
+	.video_wc .close{position: absolute; right:20px; top:5%; z-index: 9999991;}
+	.video_wc .video{position: relative;   top:12%; margin: auto; display: block; z-index: 9999991; width:700px}
+	.video_wcs{width: 100%; height: 100%; position: fixed; z-index: 999999; display: none;}
+	.video_wcs .bgbg{background: #000; opacity: 0.5; width:100%; height: 100%; z-index: 999999; position: absolute; top:0; left: 0;}
+	.video_wcs .close{position: absolute; right:20px; top:5%; z-index: 9999991;}
+	.video_wcs .video{position: relative;   top:12%; margin: auto; display: block; z-index: 9999991; width:700px}
+	.v_wc{width:96%; margin: 0 auto; padding: 10px 0;}
+	.v_wc span{display: block; width:100%; font-size:1.4rem; color:blue; padding:5px 0;}
 
-@媒体屏幕和 (最大宽度:1000便士x) {
-。视频_wc。录像{宽度:85%}
-		.视频_wcs .录像{宽度:85%}
+	@media screen and (max-width: 1000px) {
+		.video_wc .video{width:85%}
+		.video_wcs .video{width:85%}
 	}
 	
-@媒体屏幕和 (最大宽度:1000便士x) {
-。视频_wc。录像{宽度:75%}
-		.视频_wcs .录像{宽度:75%}
+	@media screen and (max-width: 1000px) {
+		.video_wc .video{width:75%}
+		.video_wcs .video{width:75%}
 	}
 </style>
-<div 班级="视频_厕所">
-	<span 班级="关闭"> 关闭</span >
-	<video id="视频" class= "录像"控制> </视频>
-	<div 班级=" bgbg "> </div >
+<div class="video_wc">
+	<span class="close"> 关闭</span>
+	<video id="video" class="video" controls></video>
+	<div class="bgbg"></div>
 </div>
 
-<div 班级="视频_wcs ">
-	<span 班级="关闭"> 关闭</span >
-	<div 班级=" bgbg "> </div >
+<div class="video_wcs">
+	<span class="close"> 关闭</span>
+	<div class="bgbg"></div>
 </div>	
 
 <script>
-功能playm3u8(urlm3) {
-var urllist = urlm3。薄片(-4);
-        如果 (urllist==" m3u8 ") {
-			如果(Hls。已支持())
+ function playm3u8(urlm3) {
+	var urllist = urlm3.slice(-4);
+        if (urllist=="m3u8") {
+			if(Hls.isSupported())
 			{
-				$(".视频_wc ").钢性铸铁("显示","阻止");
-var视频=文档。getElementById('视频');
-var hls =新的Hls();
-hls。负载源(urlm3);
-hls。附加媒体(录像);
+				$(".video_wc").css("display","block");
+				var video = document.getElementById('video');
+				var hls = new Hls();
+				hls.loadSource(urlm3);
+				hls.attachMedia(video);
 				//video.play();
-hls。在(Hls。事件.清单_已解析, 功能 () {
-视频。玩();
+				hls.on(Hls.Events.MANIFEST_PARSED, function () {
+					video.play();
 				});
-hls。在(Hls。事件.错误, (事件，数据) => {
+				hls.on(Hls.Events.ERROR, (event, data) => {
 					//console.log("1222");
-控制台。原木(事件，数据);
+					console.log(event, data);
 					// 监听出错事件
 				});
 			}
-			其他
+			else
 			{
-				$(".视频_wc ").钢性铸铁("显示","阻止");
-var视频=文档。getElementById('视频');
-视频。科学研究委员会= urlm3
-视频。addEventListener(' loadedmetadata ',功能() {
+				$(".video_wc").css("display","block");
+				var video = document.getElementById('video');
+				video.src = urlm3;
+				video.addEventListener('loadedmetadata',function() {
 				video.play();
 				});
 			}
@@ -118,7 +118,7 @@ var视频=文档。getElementById('视频');
 </script>
 
 
-<!-- 吃瓜站点合集 -->
+<!-- 开通吃瓜站点合集联系微信：A777777XD (需备注否则不通过) -->
 <div class="swid"></div>
 
 <style>
